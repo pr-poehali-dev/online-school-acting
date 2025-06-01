@@ -15,7 +15,7 @@ const Header = () => {
               <span className="text-white font-bold text-lg">🎭</span>
             </div>
             <span className="font-montserrat font-bold text-xl text-gray-900">
-              АктерМастер
+              Союз актеров
             </span>
           </div>
 
@@ -31,13 +31,13 @@ const Header = () => {
               href="#benefits"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
-              Преимущества
+              Видеоуроки
             </a>
             <a
               href="#classes"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
             >
-              Выездные занятия
+              Онлайн занятия
             </a>
             <a
               href="#contact"
@@ -77,13 +77,13 @@ const Header = () => {
                 href="#benefits"
                 className="block px-3 py-2 text-gray-600 hover:text-indigo-600"
               >
-                Преимущества
+                Видеоуроки
               </a>
               <a
                 href="#classes"
                 className="block px-3 py-2 text-gray-600 hover:text-indigo-600"
               >
-                Выездные занятия
+                Онлайн занятия
               </a>
               <a
                 href="#contact"

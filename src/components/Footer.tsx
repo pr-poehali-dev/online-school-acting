@@ -12,13 +12,13 @@ const Footer = () => {
                 <span className="text-white font-bold text-lg">🎭</span>
               </div>
               <span className="font-montserrat font-bold text-xl">
-                АктерМастер
+                Союз актеров
               </span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Бесплатная онлайн школа актерского мастерства с выездными
-              занятиями. Развиваем таланты, воспитываем профессионалов, создаем
-              сообщество творческих людей.
+              Бесплатная онлайн школа актерского мастерства для жителей
+              Тамбовской области. Изучайте видеоуроки, выполняйте задания и
+              получайте обратную связь от опытных преподавателей.
             </p>
             <div className="flex space-x-4">
               <a
@@ -56,15 +56,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Icon name="Phone" size={16} className="text-gray-400 mr-3" />
-                <span className="text-gray-300">+7 (383) 123-45-67</span>
+                <span className="text-gray-300">+7 (4752) 123-45-67</span>
               </div>
               <div className="flex items-center">
                 <Icon name="Mail" size={16} className="text-gray-400 mr-3" />
-                <span className="text-gray-300">info@aktermaster.ru</span>
+                <span className="text-gray-300">info@soyuzakterov.ru</span>
               </div>
               <div className="flex items-center">
                 <Icon name="MapPin" size={16} className="text-gray-400 mr-3" />
-                <span className="text-gray-300">Новосибирск, центр</span>
+                <span className="text-gray-300">Тамбовская область</span>
               </div>
               <div className="flex items-center">
                 <Icon name="Clock" size={16} className="text-gray-400 mr-3" />
@@ -122,7 +122,7 @@ const Footer = () => {
         {/* Нижняя часть */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 АктерМастер. Все права защищены.
+            © 2024 Союз актеров. Все права защищены.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a

@@ -11,12 +11,12 @@ import Icon from "@/components/ui/icon";
 
 const LocalClasses = () => {
   const districts = [
-    { name: "Центральный", available: true, nextClass: "15 января" },
-    { name: "Кировский", available: true, nextClass: "18 января" },
-    { name: "Заельцовский", available: true, nextClass: "22 января" },
-    { name: "Октябрьский", available: false, nextClass: "Скоро" },
-    { name: "Советский", available: true, nextClass: "25 января" },
-    { name: "Ленинский", available: true, nextClass: "28 января" },
+    { name: "Тамбов", available: true, nextClass: "15 января" },
+    { name: "Мичуринск", available: true, nextClass: "18 января" },
+    { name: "Рассказово", available: true, nextClass: "22 января" },
+    { name: "Моршанск", available: false, nextClass: "Скоро" },
+    { name: "Котовск", available: true, nextClass: "25 января" },
+    { name: "Уварово", available: true, nextClass: "28 января" },
   ];
 
   return (
@@ -28,11 +28,12 @@ const LocalClasses = () => {
         {/* Заголовок секции */}
         <div className="text-center mb-16">
           <h2 className="font-montserrat text-4xl font-bold text-gray-900 mb-4">
-            Выездные занятия по районам
+            Онлайн занятия для Тамбовской области
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Мы приезжаем к вам! Очные мастер-классы и практические занятия в
-            удобных локациях вашего района
+            Участвуйте в онлайн мастер-классах и групповых занятиях!
+            Интерактивные вебинары с преподавателями для жителей всех районов
+            области
           </p>
         </div>
 
@@ -46,15 +47,15 @@ const LocalClasses = () => {
                     <Icon name="MapPin" size={24} className="text-amber-600" />
                   </div>
                   <CardTitle className="font-montserrat text-2xl text-gray-900">
-                    Как проходят выезды
+                    Как проходят онлайн занятия
                   </CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="px-0">
                 <CardDescription className="text-gray-600 mb-6 leading-relaxed">
-                  Каждые выходные наши педагоги проводят 3-часовые интенсивы в
-                  районных культурных центрах. Практические занятия, работа в
-                  группах, индивидуальные консультации.
+                  Еженедельные интерактивные вебинары с преподавателями.
+                  Групповые упражнения, разбор заданий, ответы на вопросы. Живое
+                  общение и практика в режиме реального времени.
                 </CardDescription>
 
                 <div className="space-y-4 mb-6">
@@ -65,7 +66,7 @@ const LocalClasses = () => {
                       className="text-indigo-600 mr-3"
                     />
                     <span className="text-gray-700">
-                      Продолжительность: 3 часа
+                      Продолжительность: 2 часа
                     </span>
                   </div>
                   <div className="flex items-center">
@@ -74,7 +75,7 @@ const LocalClasses = () => {
                       size={20}
                       className="text-indigo-600 mr-3"
                     />
-                    <span className="text-gray-700">Группы до 15 человек</span>
+                    <span className="text-gray-700">Группы до 20 человек</span>
                   </div>
                   <div className="flex items-center">
                     <Icon
@@ -88,7 +89,7 @@ const LocalClasses = () => {
 
                 <Button className="w-full bg-amber-600 hover:bg-amber-700">
                   <Icon name="Calendar" size={20} className="mr-2" />
-                  Записаться на выезд
+                  Записаться на вебинар
                 </Button>
               </CardContent>
             </Card>
@@ -97,7 +98,7 @@ const LocalClasses = () => {
           {/* Районы */}
           <div>
             <h3 className="font-montserrat text-xl font-semibold text-gray-900 mb-6">
-              Доступные районы
+              Активные районы области
             </h3>
             <div className="grid sm:grid-cols-2 gap-4">
               {districts.map((district, index) => (

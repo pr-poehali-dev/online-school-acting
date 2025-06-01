@@ -17,9 +17,10 @@ const Hero = () => {
 
           {/* Подзаголовок */}
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Бесплатная онлайн школа актерского мастерства с выездными занятиями
-            в районы города. Развивайте речь, импровизацию и актерские навыки с
-            профессиональными педагогами.
+            Бесплатная онлайн школа актерского мастерства для жителей Тамбовской
+            области. Изучайте видеоуроки, выполняйте практические задания и
+            получайте обратную связь от опытных преподавателей - студентов
+            выпускных курсов актерского мастерства и РТП.
           </p>
 
           {/* Кнопки действий */}
@@ -28,7 +29,6 @@ const Hero = () => {
               size="lg"
               className="bg-indigo-600 hover:bg-indigo-700 text-lg px-8 py-3"
             >
-              <Icon name="Play" size={20} className="mr-2" />
               Начать обучение
             </Button>
             <Button
@@ -37,7 +37,7 @@ const Hero = () => {
               className="text-lg px-8 py-3 border-indigo-600 text-indigo-600 hover:bg-indigo-50"
             >
               <Icon name="Calendar" size={20} className="mr-2" />
-              Записаться на выезд
+              Смотреть видеоуроки
             </Button>
           </div>
 
@@ -45,9 +45,9 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-indigo-600 mb-2">
-                500+
+                300+
               </div>
-              <div className="text-gray-600">Довольных учеников</div>
+              <div className="text-gray-600">Видеоуроков</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-indigo-600 mb-2">
@@ -56,8 +56,8 @@ const Hero = () => {
               <div className="text-gray-600">Бесплатное обучение</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-indigo-600 mb-2">15</div>
-              <div className="text-gray-600">Районов города</div>
+              <div className="text-3xl font-bold text-indigo-600 mb-2">20+</div>
+              <div className="text-gray-600">Районов области</div>
             </div>
           </div>
         </div>

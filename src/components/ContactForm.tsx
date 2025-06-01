@@ -43,11 +43,12 @@ const ContactForm = () => {
           {/* Информация */}
           <div>
             <h2 className="font-montserrat text-4xl font-bold text-gray-900 mb-6">
-              Начните свой путь в актерском мастерстве
+              Начните обучение в "Союз актеров"
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Присоединяйтесь к нашему сообществу творческих людей. Заполните
-              форму, и мы подберем для вас подходящую программу обучения.
+              Присоединяйтесь к онлайн школе актерского мастерства для жителей
+              Тамбовской области. Получите доступ к видеоурокам и персональной
+              обратной связи от преподавателей.
             </p>
 
             <div className="space-y-4">
@@ -56,7 +57,7 @@ const ContactForm = () => {
                   <Icon name="Check" size={20} className="text-green-600" />
                 </div>
                 <span className="text-gray-700">
-                  Бесплатная консультация и тестирование
+                  Бесплатный доступ к видеоурокам
                 </span>
               </div>
               <div className="flex items-center">
@@ -64,7 +65,7 @@ const ContactForm = () => {
                   <Icon name="Users" size={20} className="text-blue-600" />
                 </div>
                 <span className="text-gray-700">
-                  Подбор группы по уровню подготовки
+                  Проверка заданий преподавателями
                 </span>
               </div>
               <div className="flex items-center">
@@ -72,7 +73,7 @@ const ContactForm = () => {
                   <Icon name="Star" size={20} className="text-purple-600" />
                 </div>
                 <span className="text-gray-700">
-                  Персональный план развития
+                  Участие в онлайн вебинарах
                 </span>
               </div>
             </div>
@@ -132,13 +133,13 @@ const ContactForm = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none"
                   >
-                    <option value="">Выберите район</option>
-                    <option value="central">Центральный</option>
-                    <option value="kirovsky">Кировский</option>
-                    <option value="zaeltsovsky">Заельцовский</option>
-                    <option value="october">Октябрьский</option>
-                    <option value="sovetsky">Советский</option>
-                    <option value="leninsky">Ленинский</option>
+                    <option value="">Выберите город</option>
+                    <option value="tambov">Тамбов</option>
+                    <option value="michurinsk">Мичуринск</option>
+                    <option value="rasskazovo">Рассказово</option>
+                    <option value="morshansk">Моршанск</option>
+                    <option value="kotovsk">Котовск</option>
+                    <option value="uvarovo">Уварово</option>
                   </select>
                 </div>
 
